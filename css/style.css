@@ -13,6 +13,7 @@ h1 strong {
 	font-weight: 900;
 }
 h2 {
+	font-family: 'Play', sans-serif;
 	margin: 20px 0;
 	color: #555;
 }
@@ -228,13 +229,16 @@ hr {
 .section-title h2, .section-title.center h2 {
 	margin-bottom: 30px;
 }
-/* Section 1 */
-#section1 {
+/* Section discover */
+#discover {
 	background: #f6f6f6;
     min-height: 100%;
 }
-#section1 .section1-text {
-	margin-left: 10px;
+#discover .tagline {
+	background-color: #dde786;
+	padding: 20px;
+	margin-top: 30px;
+	border-radius: 5px;
 }
 #section1 h3 {
 	text-align: center;
@@ -281,10 +285,6 @@ hr {
 	max-width: 100%
 }
 /* Section 2 */
-#section2 {
-    background-color: #B0985C;
-    min-height: 100%;
-}
 #section2 .sub-section {
 	padding: 20px 10px;
 }
@@ -324,74 +324,41 @@ hr {
     margin-top: 30px;
 }
 
-/* Section 3 */
-#section3 {
+/* section details */
+#details {
+    background-color: #B0985C;
+    padding-top: 100px;
     min-height: 100%;
-	background-color: #78C9BC;
-	padding-bottom: 50px;
 }
-#section3 .jumbotron {
-   
-	background-color: #6ab0a4;
+#details .btn.btn-default {
+	margin: 0;
+	position: absolute;
+	bottom: 0;
 }
-
-#section3 h2 {
-	color: #f6f6f6;
+#details .row.sub-section {
+    position: relative;
+	padding-bottom: 4em;
 }
-#section3 .sub-section {
-	color: #f6f6f6;
+#details div.col-sm-4.nopos {
+	position: static;
 }
-#section3 .modal-content {
-	background-color: #6ab0a4;
+#details .btn.btn-default.modal-close {
+	position: relative;
 }
-#section3 .modal-title {
-	color: #f6f6f6;
+@media (max-width: 768px) {
+#details div.col-sm-4.nopos {
+	position: relative;
+	padding-bottom: 4em;
+	padding-top: 50px;
 }
-
-#section3 .jumbotron p {
-        text-align: center;
-		margin-bottom: 30px;
-		color: #e8e8e8;
+#details .row.sub-section {
+    position: relative;
+	padding-bottom: 2em;
 }
-#section3 button {
-	margin-right: 5px;
+#details {
+    padding-top: 50px;  
 }
-#section3 .room-thumbnail{
-	margin-top: 20px;
 }
-#section3 .grouped-buttons, .bottom {
-    margin-bottom: 1em;
-}
-@media only screen and (min-width: 768px) {
-    #section3 .row {
-        display: table;
-    }
-    #section3 .col-sm-4 {
-        float: none;
-        display: table-cell;
-        vertical-align: top;
-        position: relative;
-        padding-bottom: 50px;
-    }
-    #section3 .grouped-buttons, .bottom {
-        position: absolute;
-        bottom: 0;
-    }
-}
-#section3 .btn-default {
-	padding: 6px 12px;
-	font-size: 14px;
-	margin-left: 0;
-	margin-right: 15px;
-}
-#section3 .popover {
-	background-color: #5B998F;
-}
-#section3 .popover .arrow:after {
-	border-right-color: #5B998F;
-}
-
-
 /* Section gcard */
 #gcard {
 	background: #B0985C;
@@ -482,7 +449,6 @@ box-shadow: 6px 5px 10px -1px rgba(69,68,69,1);
 	color: #CCCCCC;
 	background: #753064;
 }	
-
 #price p{
 	text-align: left;
 }#price ul{
@@ -497,74 +463,51 @@ box-shadow: 6px 5px 10px -1px rgba(69,68,69,1);
 
 
 
-/* Section 5 */
-#section5 {
+/* faq */
+#faq {
 	background: #78C9BC;
-/*	background: url(../img/section5-bg.jpg);
-	background-size: cover; 
-	background-attachment: fixed; */
 	color: #ddd;
     min-height: 100%;
 }
-#section5 h2 {
+#faq h2 {
 	color: #f6f6f6;
 }
-#section5 h4{
+#faq h4{
 	color:	#f2f2f2;
 }
-#section5 a{
+#faq a{
 	color:	#548C83;
 }
-#section5 a:hover, #section5 a:focus {
+#faq a:hover, #faq a:focus {
 	color:	#C74D00;
 }
-#section5 .panel-title > a
+#faq .panel-title > a
  { 
 	color: #f2f2f2;
 }
-/*#section5 .panel-title > a:focus, #section5 .panel-title > a:hover {
-	text-decoration: none;
-	color: #fff;	
-}*/
-/*
-.panel-title > a:before {
-    content: '\02795';
-    font-size: 13px;
-    color: #fff;
-    float: left;
-    margin-right: 5px;	max-width: 40 px;
-}
-.panel-title > a.focus:before {
-    content: "\2796";
-}
-*/
-#section5 .panel-title a:before {
+#faq .panel-title a:before {
     content: "\2796";
 	margin-right: 5px;	max-width: 40 px;
 }
 	
-#section5 .panel-title a.collapsed:before {
+#faq .panel-title a.collapsed:before {
     content: "\2795";
 	margin-right: 5px;	max-width: 40 px;
 }
-	
-
-#section5 .panel-default {
+#faq .panel-default {
     margin-bottom: 20px;
 }
-
-
-#section5 .panel-default > .panel-heading  {
+#faq .panel-default > .panel-heading  {
 	background-color: #6ab0a4;
 }
-#section5 .panel-default {
+#faq .panel-default {
 	border-color:  #62a398;
 }
-#section5 .panel-body {
+#faq .panel-body {
 	background-color: #71bdb0;
 	color: #f2f2f2;
 }
-#section5 .panel-default>.panel-heading+.panel-collapse>.panel-body  {
+#faq .panel-default>.panel-heading+.panel-collapse>.panel-body  {
 	border-top-color: #62a398;
 }
 
@@ -889,50 +832,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-size: 5em;
 }
 }
-/* --accordion with javascript and css
-#section5 button.accordion {
-    background: #71bdb0;
-    color: #fff;
-    cursor: pointer;
-    padding: 10px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-}
-#section5 button.accordion.active, #section5 button.accordion:hover {
-    background-color: #6ab0a4;
-}
-#section5 button.accordion:before {
-    content: '\02795';
-    font-size: 13px;
-    color: #fff;
-    float: left;
-    margin-right: 5px;	max-width: 40 px;
-}
-#section5 button.accordion.active:before {
-    content: "\2796";
-}
-#section5 div.panel {
-	color: #fff;
-	text-align: left;
-    padding: 10px 30px 0px;
-    background-color: #7fd4c6;
-    max-height: 0;
-    overflow: hidden;
-    transition: 0.6s ease-in-out;
-    opacity: 0;
-}
-#section5 div.panel.show {
-    opacity: 1;
-    max-height: 500px;
-}
-#section5 .clearfix {
-	overflow:	auto;
-} */
-
 /* directions */
 .markerWindow h4 {
 	color: #a6a6a6;
