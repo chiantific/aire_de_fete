@@ -453,58 +453,6 @@ box-shadow: 6px 5px 10px -1px rgba(69,68,69,1);
 	color: #5d2a65;
 	font-weight: 600;
 }
-/* price */
-#price{
-	background-color: #C1D6D2;
-	min-height: 100%;
-}
-
-#price .jumbotron {
-	background-image: url(../img/money.jpg);
-	background-size: 100%;
-	background-color: rgba(178,209,203,0.5)
-	margin-bottom: 50px;
-}
-#price i.fa_big {
-	font-size: 6em;
-	color: #15595F;
-	margin: 20px 0;
-}
-#price img.fc {
-	height: 6em;
-	margin: 20px 0;
-}
-#price img.ic {
-	height: 2em;
-	margin-right: 20px;
-}
-#price li {
-	display: inline-block;
-	text-align: left;
-}
-#price .btn-default {
-	display: inline-block;
-	margin: 30px 0;
-	margin-right: 20px;
-	background-color: #5D264F;
-}
-#price .btn-default:hover, #contact .btn-default:focus {
-	color: #CCCCCC;
-	background: #753064;
-}	
-#price p{
-	text-align: left;
-}#price ul{
-	text-align: left;
-}
-#price h3 {
-	margin-top: 20px;
-}
-#price h2 {
-	color: #5D264F;
-}
-
-
 
 /* faq */
 #faq {
@@ -746,18 +694,21 @@ img.img-thumbnail.section4-img {
 	text-align: center;
 	}
 #contact .btn-default {
-	background: #5D264F;
+	background: #753064;
 	border: 0;
-	border-radius: 4px;
 	padding: 10px 20px;
 	color: #f6f6f6;
-	margin-top: 15px;
+	margin: 15px 0 0 0;
 	font-size: 15px;
+	-webkit-box-shadow: 0px 5px 2px 0px rgba(93,38,79,.8);
+	-moz-box-shadow: 0px 5px 2px 0px rgba(93,38,79,.8);
+	box-shadow: 0px 5px 2px 0px rgba(93,38,79,.8);
 }
 #contact .btn-default:hover, #contact .btn-default:focus {
 	color: #f6f6f6;
-	background: #a13e1a;
-}	
+	background: #5D264F;
+}
+
 
 #contact .contact-item {
 	padding: 10px;
@@ -804,20 +755,9 @@ label {
 	-webkit-box-shadow: transparent;
 	box-shadow: transparent;
 }
-#contact .btn-default {
-	background: #5D264F;
-	border: 0;
-	border-radius: 4px;
-	padding: 10px 20px;
-	color: #f6f6f6;
-	margin-top: 15px;
-	margin-left: 0;
-	font-size: 15px;
-}
-#contact .btn-default:hover, #contact .btn-default:focus {
-	color: #f6f6f6;
-	background: #a13e1a;
-}
+
+
+
 .btn:active, .btn.active {
 	background-image: none;
 	outline: 0;
