@@ -334,16 +334,30 @@ hr {
 	margin: 0;
 	position: absolute;
 	bottom: 0;
+	padding: 10px 20px;
+	background: #753064;
+	-webkit-box-shadow: 0px 5px 2px 0px rgba(93,38,79,.8);
+	-moz-box-shadow: 0px 5px 2px 0px rgba(93,38,79,.8);
+	box-shadow: 0px 5px 2px 0px rgba(93,38,79,.8);
 }
+#details .btn-default:hover, #details .btn-default:focus {
+	color: #f6f6f6;
+	background: #5D264F;
+}	
 #details .row.sub-section {
     position: relative;
 	padding-bottom: 4em;
+	color: #f6f6f6;
 }
 #details div.col-sm-4.nopos {
 	position: static;
 }
 #details .btn.btn-default.modal-close {
 	position: relative;
+}
+#details .modal-body{
+
+	color: #555;
 }
 @media (max-width: 768px) {
 #details div.col-sm-4.nopos {
@@ -359,6 +373,35 @@ hr {
     padding-top: 50px;  
 }
 }
+
+/* section links */
+#links {
+    padding-top: 200px;
+    min-height: 100%;
+}
+#links a.darken {
+    display: inline-block;
+    background: black;
+    padding: 0;
+	border-radius: 5px;
+}
+
+#links a.darken img {
+    display: block;
+
+    -webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+			
+}
+
+#links a.darken:hover img {
+    opacity: 0.7;
+
+}
+
 /* Section gcard */
 #gcard {
 	background: #B0985C;
