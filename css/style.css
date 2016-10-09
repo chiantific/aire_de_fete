@@ -376,8 +376,11 @@ hr {
 
 /* section links */
 #links {
-    padding-top: 200px;
+    padding-top: 0px;
     min-height: 100%;
+}
+#links .jumbotron {
+	margin-bottom: 60px;
 }
 #links a.darken {
     display: inline-block;
