@@ -111,6 +111,11 @@ function main() {
       if ( $(e.target).is('a'))
           $(".navbar-collapse.in").collapse('hide');
     });
+	
+	// Close menu dropdown when a link is clicked
+    $(".dropdown-menu a").click(function() {
+        $(this).closest(".dropdown-menu").prev().dropdown("toggle");
+    });
 
     // Popover
     $('[data-toggle="popover"]').popover({
