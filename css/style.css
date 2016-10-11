@@ -148,7 +148,7 @@ hr {
 /* Intro */
 #intro {
 	width: 100%;
-	padding-top: 2em;
+	padding: 2em 0;
 	text-align: center;
 	color: #fff;
 	background-color: #B39849;
@@ -197,7 +197,7 @@ hr {
 	background: #78C9BC;
 	border: 0;
 	padding: 12px 24px;
-	margin: 0 1.5em;
+	margin: 0.5em 1.5em;
 	font-size: 18px;
 	transition: all 0.5s;
 	-webkit-box-shadow: 0px 5px 2px 0px rgba(21,89,95,1);
